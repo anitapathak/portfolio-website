@@ -13,7 +13,7 @@ const HeroSection = () => {
       <div className="grid grid-cols-1 lg:grid-cols-12">
         <div className="col-span-7 place-self-center text-center sm:text-left">
       <h1 className="text-white mb-4 text-4xl sm:5xl lg:text-6xl font-extrabold">
-        <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'> Hey,I'm {" "} </span>
+        <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600'> Hi, I&apos;m { " "} </span>
         
 
 
@@ -39,7 +39,7 @@ const HeroSection = () => {
 
       </h1>
       <p className='text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl'>
-      Developer | Building the Future of Tech One Line of Code at a Time" 
+      Developer | Building the Future of Tech One Line of Code at a Time 
       </p>
       <div className='mt-2'>
         <button className='bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 px-6 py-3 w-full sm:w-fit rounded-full mr-4 hover:bg-slate-200 text-white'> Hire me!</button>

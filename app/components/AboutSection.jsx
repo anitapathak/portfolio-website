@@ -59,21 +59,20 @@ const AboutSection =()=>{
     />
     <div className='mt-4 md:mt-0 text-left fexl flex-col h-full '>
         <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
+        
+        <div>
         <p className='text-base lg:text-lg  '>
-        Hi, I'm Anita!
-         I'm a Frontend Developer and Computer Science student 
-         passionate about building user-friendly websites and applications. 
-         I specialize in JavaScript, React.js, Next.js, and CSS, 
-         creating seamless, responsive user experiences.
-          My love for technology and problem-solving led me to pursue web development, 
-          and I've been growing my skills through personal projects and hands-on learning. 
-          I'm excited by the balance of creativity and logic in web development, 
-          and I'm always exploring new tools to stay current with trends.
-           If you'd like to collaborate or chat about frontend development,
-            feel free to reach out—I'm always open to new opportunities!
-
-
-        </p>
+    Hi, I&apos;m Anita! I&apos;m a Frontend Developer and Computer Science student
+    passionate about building user-friendly websites and applications. I specialize in
+    JavaScript, React.js, Next.js, and CSS, creating seamless, responsive user
+    experiences. My love for technology and problem-solving led me to pursue web
+    development, and I&apos;ve been growing my skills through personal projects and
+    hands-on learning. I&apos;m excited by the balance of creativity and logic in web
+    development, and I&apos;m always exploring new tools to stay current with trends.
+    If you&apos;d like to collaborate or chat about frontend development, feel free to
+    reach out— I&apos;m always open to new opportunities!
+  </p>
+</div>
         <div className='flex flex-row mt-8'>
             <TabButton selectTab={()=> handleTabChange("education") } active={tab==="education"}> {" "}Education{" "}</TabButton>
             <TabButton selectTab={()=> handleTabChange("skills") } active={tab==="skills"}> {" "}Skills{" "}</TabButton>
