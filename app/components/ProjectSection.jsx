@@ -34,7 +34,8 @@ const ProjectSection = () => {
 
 
   return (
-    <><h2 className='text-white text-center text-4xl font-bold mt-4 mb-8 md:mb-12'> My Projects</h2>
+    <section id="projects" className="scroll-mt-24">
+    <h2 className='text-white text-center text-4xl font-bold mt-4 mb-8 md:mb-12'> My Projects</h2>
     <div className='text-white flex flex-row justify-centter item-center gap-2 py-6'>
       <ProjectTag onClick={handleTagChange} name="All" isSelected={tag==="All"} />
       <ProjectTag onClick={handleTagChange} name="Web" isSelected={tag==="Web"} />
@@ -47,7 +48,7 @@ const ProjectSection = () => {
     gitUrl={project.gitUrl}
     previewUrl={project.previewUrl}
     />
-  )} </div></>
+  )} </div></section>
   )
 }
 
